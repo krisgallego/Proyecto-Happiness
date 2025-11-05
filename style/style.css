@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 196, 4);
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 15px;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+    margin-right: 18px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.principio{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 30px;
+    height: 90%;
+}
+
+.imagen img{
+    width: 400px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.principio h2{
+    font-size: 5em;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.principio p{
+    font-size: 1.2em;
+    color: #181717;
+    width: 40%;
+    margin-left: 200px;
+    font-weight: bolder;
+}
+
+.principio a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 196, 4);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-left: 200px;
+    width: 20%;
+}
+
+.seccion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(208, 218, 218);
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 200px;
+    min-height: 500px;
+    position: relative;   /* permite controlar la superposición */
+    z-index: 2;           /* se pone por encima del siguiente bloque */
+    margin-bottom: -100px; /* este es el truco: empuja hacia abajo, superponiendo */
+    border-radius: 5px;   /* opcional, para un efecto más limpio */
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1); /* opcional: sombra suave */
+}
+
+.combinado{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.combinado h2{
+    font-size: 3.2em;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: rgb(255, 196, 4);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60%;
+}
+
+.combinado p{
+    font-size: 1em;
+    color: #181717;
+    width: 45%;
+    margin-left: 100px;
+    font-weight: bolder;
+}
+
+.combinado a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.graficas{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 196, 4);
+    justify-content: space-between;
+    margin-top: 0;/* elimina el espacio para que se vea la superposición */
+    min-height: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 160px;
+    margin-top: 200px;
+}
+
+.centro h2{
+    font-size: 3.5em;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.centro p{
+    font-size: 1em;
+    color: #181717;
+    width: 55%;
+    font-weight: bolder;
+}
+
+.centro a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1px;
+    width: 35%;
+}
+
+.imagen2{
+    margin-right: 400px;
+}
+
+.imagen2 img{
+    width: 160%;
+    height: auto;
+    margin-top: 350px;
+}
+
+.parte3 {
+    min-height: 900px; /* antes 500px */
+    display: flex;
+    align-items: center; /* centra verticalmente .datos */
+    justify-content: center; /* opcional: centra horizontalmente */
+}
+
+
+.part {
+    background-color: rgb(208, 218, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: auto; 
+    margin-right: auto; /* lo centra */
+    padding: 40px; /* da más espacio interno */
+    border-radius: 10px; /* mejora visual */
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.part .imagen3 img{
+    height: 90%;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.contenido h2{
+    font-size: 3.5em;
+    color: rgb(255, 196, 4);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.contenido p{
+    font-size: 1em;
+    color: #181717;
+    width: 75%;
+    font-weight: bolder;
+}
+
+.contenido a{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1px;
+    width: 63%;
+}
+
+.contenido img{
+    width: 50%;
+    height: auto;
+}
+
+.part-abous{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+    min-height: 950px;
+}
+
+.part-abous h2{
+    margin-top: 20px;
+    font-size: 3em;
+    color: rgb(255, 196, 4);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
