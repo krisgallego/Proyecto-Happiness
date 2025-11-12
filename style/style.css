@@ -362,7 +362,7 @@ body{
     flex-direction: row;
     gap: 15px;
     background-color: rgb(208, 218, 218);
-    min-height: 750px;
+    min-height: 550px;
 }
 
 .texto2{
@@ -420,4 +420,173 @@ body{
 .datos h3{
     font-weight: lighter;
     margin-top: 30px;
+}
+
+.datos h3, .datos input,
+.datos textarea{
+    margin-left: 40px;
+}
+
+.datos input,
+.datos textarea {
+    width: 70%;
+    height: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #000;   
+    color: white;             
+}
+
+.name-surname{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.name{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.surname{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 80px;
+}
+
+.texto3 h2{
+    font-size: 3.5em;
+    color: rgb(255, 196, 4);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+.texto3 p{
+    font-size: 1em;
+    color: #181717;
+    width: 75%;
+    font-weight: bolder;
+}
+
+.texto3 a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1px;
+    width: 30%;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(255, 196, 4);
+    align-items: center;
+    text-align: center;
+    min-height: 700px;
+}
+
+.mapa h2{
+    font-size: 3.3em;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mapa p{
+    font-size: 1em;
+    color: #181717;
+    width: 75%;
+    font-weight: bolder;
+}
+
+.mapa img{
+    width: 70%;
+    height: auto;
+}
+
+.mapa a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 1px;
+    width: 15%;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background-color: #000;
+}
+
+hr{
+    width: 90%;
+    color: #fff;
+    margin-left: 60px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.lista1, .lista2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.lista1 a, .lista2 a{
+    color: rgb(255, 196, 4);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.final1 p{
+    font-size: 1em;
+    color: rgb(255, 196, 4);
+    font-weight: bold;
+}
+
+.final-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 180px;
 }
