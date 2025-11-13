@@ -590,3 +590,297 @@ hr{
     gap: 20px;
     margin-left: 180px;
 }
+
+@media (max-width:1279px){
+     .principio h2 {
+        font-size: 4em;
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .principio p {
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    .imagen img {
+        width: 350px;
+        margin-left: 80px;
+    }
+
+    .seccion {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centro {
+        margin-left: 80px;
+    }
+
+    .imagen2 img {
+        width: 130%;
+        margin-right: 200px;
+    }
+
+    .contenido h2 {
+        font-size: 3em;
+    }
+
+    .equipo {
+        gap: 50px;
+        padding: 0 50px;
+        margin-left: 0;
+    }
+}
+
+
+
+@media (max-width:920px){
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .parte1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principio {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .principio h2, .principio p, .principio a {
+        margin-left: 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .imagen img {
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .seccion {
+        flex-direction: column;
+        width: 90%;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .combinado h2, .combinado p, .combinado a {
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .graficas {
+        flex-direction: column;
+        margin-right: 0;
+        gap: 30px;
+    }
+
+    .parte2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .centro {
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagen2 img {
+        width: 80%;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .contenido {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .contenido p {
+        width: 85%;
+    }
+
+    .equipo {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .imagen5 img {
+        width: 80%;
+    }
+
+    .texto {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .logo img {
+        height: 40px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .principio h2 {
+        font-size: 3em;
+    }
+
+    .principio p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .principio a {
+        width: 50%;
+        font-size: 0.9em;
+    }
+
+    .combinado h2 {
+        font-size: 2em;
+    }
+
+    .centro h2 {
+        font-size: 2.5em;
+    }
+
+    .contenido h2 {
+        font-size: 2.5em;
+    }
+
+    .texto2 h2 {
+        font-size: 3em;
+    }
+
+    .texto2 a {
+        width: 60%;
+    }
+
+    .datos {
+        width: 90%;
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .mapa img {
+        width: 90%;
+    }
+
+    .mapa a {
+        width: 40%;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+    .lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .final {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .final-img {
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width:480px){
+     .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .parte1, .parte2, .part, .equipo, .part-free {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principio h2 {
+        font-size: 2.3em;
+    }
+
+    .principio p {
+        font-size: 0.9em;
+        width: 90%;
+    }
+
+    .principio a {
+        width: 60%;
+    }
+
+    .imagen img {
+        width: 250px;
+    }
+
+    .combinado h2 {
+        font-size: 1.8em;
+    }
+
+    .centro h2, .contenido h2, .texto2 h2 {
+        font-size: 2em;
+    }
+
+    .centro p, .contenido p, .texto2 p {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    .centro a, .contenido a, .texto2 a {
+        width: 70%;
+        font-size: 0.9em;
+    }
+
+    .imagen2 img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .mapa h2 {
+        font-size: 2em;
+    }
+
+    .mapa a {
+        width: 60%;
+    }
+
+    .footer p {
+        font-size: 0.9em;
+    }
+}
